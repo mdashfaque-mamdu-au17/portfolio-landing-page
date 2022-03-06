@@ -1,0 +1,66 @@
+.navbar__main__container {
+  color: #fff;
+  max-width: 1280px;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar__main__container .navbar__logo h4 {
+  font-size: 1.3rem;
+}
+
+.nav__links__container .nav__links {
+  display: none;
+}
+
+.mobile__link {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: 800;
+}
+
+.mobile__link:visited {
+  color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .mobile__link {
+    display: none;
+  }
+  .nav__links__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-item-align: center;
+        align-self: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    gap: 1.5rem;
+  }
+  .nav__links__container .nav__links {
+    display: block;
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 800;
+    text-decoration: none;
+  }
+}
+
+@media screen and (min-width: 950px) {
+  .nav__links__container {
+    gap: 6rem;
+  }
+}
+/*# sourceMappingURL=navbar.css.map */

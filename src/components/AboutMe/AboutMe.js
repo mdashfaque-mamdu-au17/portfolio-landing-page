@@ -4,7 +4,7 @@ import './aboutme.scss';
 import ProfilePicture from './assets/profile-owner5.jpg';
 const AboutMe = () => {
   return (
-    <div className="about__me__container__main">
+    <div className="about__me__container__main" id="about">
       <section
         className="about__me__container"
         // style={{ backgroundColor: 'aquamarine' }}

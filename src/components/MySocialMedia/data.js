@@ -49,7 +49,7 @@ const data = [
     color: 'rgb(29, 155, 240)',
     platformName: 'twitter',
     quote:
-      'I post tweets about latest design trends and my works. Twitter si fun, I talk about design topics & tips.',
+      'I post tweets about latest design trends and my works. Twitter is fun, I talk about design topics & tips.',
   },
 ];
 
