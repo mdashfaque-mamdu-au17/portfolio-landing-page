@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;400;500;700&display=swap');
+
+.about__me__container__main {
+  background-color: #191919;
+}
+.about__me__container {
+  padding: 5rem 0;
+  margin-top: 6rem;
+  color: #ffffff;
+  max-width: 1280px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.about__me__heading {
+  margin-bottom: 4rem;
+  h1 {
+    font-size: 1.875rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-family: 'Bebas Neue', cursive;
+  }
+
+  .underline {
+    width: 3.5rem;
+    height: 0.25rem;
+    background: #4263eb;
+    margin-top: 0;
+    padding: 0;
+  }
+}
+
+.about__me__profile__image__container {
+  display: none;
+}
+.about__me__details {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  h2 {
+    font-size: 1.7rem;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-weight: 500;
+  }
+
+  p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #b3b3b3;
+  }
+
+  .speciality {
+    color: #e6e6e6;
+
+    span {
+      font-size: 1.3rem;
+      font-weight: 500;
+      color: #ffffff;
+    }
+  }
+
+  button {
+    align-self: flex-start;
+
+    color: #ffffff;
+    font-size: 0.9rem;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    border: none;
+    padding: 1em 1.4em;
+    background-color: #4263eb;
+    border-radius: 3.125rem;
+
+    &:hover {
+      cursor: pointer;
+      background-color: #364fc7;
+      transition-delay: 200ms;
+      transition-property: background-color;
+      box-shadow: none;
+    }
+  }
+}
+
+@media screen and (min-width: 950px) {
+  .hero__container {
+    width: 80%;
+  }
+
+  .about__me__heading {
+    h1 {
+      font-size: 2.2rem;
+    }
+
+    .underline {
+      width: 4rem;
+    }
+  }
+  .about__me__profile__image__container {
+    display: block;
+  }
+
+  .about__me__profile__info {
+    display: flex;
+    justify-content: space-between;
+    gap: 2.5rem;
+  }
+
+  .about__me__profile__image__container {
+    align-self: stretch;
+    border: 1rem solid #f1f3f5;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    // object-fit: fill;
+  }
+
+  .about__me__details {
+    align-self: flex-start;
+    h2 {
+      font-size: 2.2rem;
+      line-height: 1.3;
+    }
+  }
+}

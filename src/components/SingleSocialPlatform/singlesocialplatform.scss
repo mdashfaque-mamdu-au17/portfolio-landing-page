@@ -1,0 +1,31 @@
+.single__social__platform__container {
+  background-color: #070a17;
+  margin-bottom: 3rem;
+  border-radius: 0.5rem;
+}
+
+.single__social__platform__details {
+  padding: 1.5rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+.social__media__details {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  h3 {
+    font-weight: 500;
+    text-transform: capitalize;
+    align-self: flex-start;
+  }
+}
+
+.social__media__info {
+  p {
+    color: #cdced1;
+    line-height: 1.5;
+    font-weight: 300;
+  }
+}

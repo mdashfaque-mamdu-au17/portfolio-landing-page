@@ -1,0 +1,78 @@
+.single__skill__container {
+  background-color: #070a17;
+  margin-bottom: 3rem;
+}
+
+.single__skill__details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2.5rem;
+  padding: 1.5rem 1.5rem;
+}
+
+.single__skill__icon__box {
+  display: inline-block;
+  width: 2.24rem;
+  height: 2.24rem;
+  border-radius: 2.24rem;
+  background-color: #050710;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.single__skill__icon__box .icon {
+  color: #4263eb;
+}
+
+.single__skill {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 0.6rem;
+}
+
+.single__skill h3 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  line-height: 1.3;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+
+.single__skill p {
+  color: #7d7d7d;
+  line-height: 1.5;
+}
+
+.single__skill__container:hover {
+  background-color: #4263eb;
+}
+
+.single__skill__container:hover .single__skill__icon__box {
+  background-color: #7d7d7d;
+}
+
+.single__skill__container:hover .single__skill__icon__box .icon {
+  color: #fff;
+}
+
+.single__skill__container:hover .single__skill p {
+  color: #fff;
+}
+/*# sourceMappingURL=skill.css.map */

@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;400;500;700&display=swap");
+.profile__owner__skills__main__container {
+  background-color: #050710;
+  padding: 3rem 0;
+}
+
+.profile__owner__skills__main__container h1 {
+  font-size: 1.875rem;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-family: 'Bebas Neue', cursive;
+  padding-top: 1rem;
+}
+
+.profile__owner__skills__container {
+  color: #ffffff;
+  max-width: 1280px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 650px) {
+  .profile__owner__skills__container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -webkit-column-gap: 1.7rem;
+            column-gap: 1.7rem;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .profile__owner__skills__main__container h1 {
+    font-size: 2.8rem;
+  }
+  .profile__owner__skills__container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    -webkit-column-gap: 1.7rem;
+            column-gap: 1.7rem;
+  }
+}
+
+@media screen and (min-width: 1150px) {
+  .profile__owner__skills__container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    -webkit-column-gap: 1.7rem;
+            column-gap: 1.7rem;
+  }
+}
+/*# sourceMappingURL=skills.css.map */

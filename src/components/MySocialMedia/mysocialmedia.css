@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;400;500;700&display=swap");
+.my__social__media__main__container {
+  background-color: #050710;
+  padding: 3rem 0;
+  color: #fff;
+  margin-top: 6rem;
+}
+
+.my__social__media__container {
+  padding: 5rem 0;
+  color: #ffffff;
+  max-width: 1280px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.my__social__media__container h1 {
+  font-size: 1.875rem;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-family: 'Bebas Neue', cursive;
+  line-height: 1.5;
+}
+
+.my__social__media__container .heading__end {
+  margin-bottom: 5rem;
+}
+
+@media screen and (min-width: 900px) {
+  .my__social__media__container h1 {
+    font-size: 2.8rem;
+    line-height: 1.3;
+  }
+  .my__social__media__acounts {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -webkit-column-gap: 3rem;
+            column-gap: 3rem;
+  }
+}
+/*# sourceMappingURL=mysocialmedia.css.map */
