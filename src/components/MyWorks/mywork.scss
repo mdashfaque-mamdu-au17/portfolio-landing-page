@@ -30,13 +30,9 @@
   .my__works {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    column-gap: 3rem;
-    height: 700px;
-
-    .element-1 {
-      justify-self: start;
-    }
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 3rem;
+    grid-row-gap: 2.5rem;
   }
 }
 

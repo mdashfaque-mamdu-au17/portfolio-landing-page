@@ -1,0 +1,52 @@
+.single__work__container {
+  margin-bottom: 3rem;
+  background-color: #070a17;
+}
+
+.single__work__image__container {
+  margin-bottom: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 0.5rem;
+}
+
+.single__work__image__container img {
+  width: 100%;
+  height: auto;
+}
+
+.single__work__image__container .single__work__job__details {
+  padding: 0.3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 0.4rem;
+}
+
+.single__work__image__container .single__work__job__details h3 {
+  font-size: 1.2rem;
+  line-height: 1.3;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.single__work__image__container .single__work__job__details p {
+  color: #7d7d7d;
+  line-height: 1.5;
+}
+
+@media screen and (min-width: 768px) {
+  .single__work__container {
+    margin-bottom: 0;
+  }
+}
+/*# sourceMappingURL=singlework.css.map */
