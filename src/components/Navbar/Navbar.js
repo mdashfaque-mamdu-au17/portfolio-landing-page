@@ -49,7 +49,12 @@ const Navbar = () => {
                 const { id, name, to } = link;
                 if (name === 'works') {
                   return (
-                    <Link key={id} to={to} className="nav__links__mobile">
+                    <Link
+                      key={id}
+                      to={to}
+                      className="nav__links__mobile"
+                      onClick={() => setMenuOpen(false)}
+                    >
                       {name}
                     </Link>
                   );
@@ -60,6 +65,7 @@ const Navbar = () => {
                       smooth
                       to={to}
                       className="nav__links__mobile"
+                      onClick={() => setMenuOpen(false)}
                     >
                       {name}
                     </HashLink>
