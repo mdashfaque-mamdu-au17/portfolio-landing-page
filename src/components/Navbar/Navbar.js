@@ -28,9 +28,6 @@ const Navbar = () => {
             );
           }
         })}
-        {/* <Link to="/works" className="mobile__link">
-          works
-        </Link> */}
         <RiMenu3Line
           color="#fff"
           size={30}
